@@ -1,5 +1,5 @@
 
-FROM ubuntu:18.04
+FROM ubuntu:18.10
 LABEL "maintainer"="LarsGohr@posteo.de"
 
 RUN apt-get update \
