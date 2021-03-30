@@ -1,5 +1,5 @@
 
-FROM debian:10.8
+FROM debian:10.9
 LABEL "maintainer"="LarsGohr@posteo.de"
 
 RUN apt update \
