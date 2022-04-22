@@ -1,13 +1,13 @@
-name: Publish Master
+name: Publish
 on: 
   push:
     branches:
-    - master
+    - main
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v3
     - name: Build the Docker image
       run: docker build . -t lgohr/github-hub:${{ github.sha }} -t lgohr/github-hub:latest
     - name: Login to Registry
