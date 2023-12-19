@@ -1,5 +1,5 @@
 
-FROM debian:12.2
+FROM debian:12.4
 LABEL "maintainer"="LarsGohr@posteo.de"
 
 RUN apt update \
