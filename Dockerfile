@@ -1,5 +1,5 @@
 
-FROM debian:13.0
+FROM debian:13.1
 LABEL "maintainer"="LarsGohr@posteo.de"
 
 RUN apt update \
